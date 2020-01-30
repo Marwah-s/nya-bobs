@@ -424,7 +424,7 @@ aside a:hover {
 }
 
 #bowling-page main img {
-  width: 20em;
+  width: 15em;
 }
 
 #bowling-link {
@@ -789,6 +789,14 @@ label {
 
   #about-page main {
     margin: 3em 10em;
+  }
+
+  .box {
+    padding-bottom: 5em;
+  }
+
+  #startsida-articles {
+    padding-bottom: 5em;
   }
 
 }
