@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bobs Bowling</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body id="startsida">
+
+  <div class="container">
+    
+    <header class="nested">
+      
+     
+        <a href="index.html"><img id="logo" src="img/logoball.png" alt="Bobs Bowling"></a>
+    
+     
+      <nav>
+         <ul>
+          <li><a href="index.html">HEM</a></li>
+          <li><a href="bowling.html">BOWLING</a></li>
+          <li><a href="mat.html">MAT</a></li>
+          <li><a href="omoss.html">OM OSS</a></li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+      </nav>
+
+      <section class="search">
+        <input type="text" placeholder="Sök...">
+      </section>
+
+      <img id="menu-icon" src="img/menu.png" alt="Hamburger Menu" onclick="toggleMenu()">
+    </header>
+
+    <section id="mobile-nav"> <!--Dold på större upplösningar, dyker upp på mindre skärmar när användaren trycker på menyikonen-->
+      <ul>
+          <li><a href="index.html">HEM</a></li>
+          <li><a href="bowling.html">BOWLING</a></li>
+          <li><a href="mat.html">MAT</a></li>
+          <li><a href="omoss.html">OM OSS</a></li>
+          <li><a href="#">BLOGG</a></li>  <!--Ersätter sidebar på mindre upplösningar-->
+          <li><a href="kontakt.html">KONTAKT</a></li>
+          <li><section id="mobile-search">
+          <input type="text" placeholder="Sök...">
+      </section></li>
+      </ul>
+    </section>
+
+    <aside>
+      <h2>NYHETER</h2>
+      <ul id="sidebar-content">
+        <li><a href="#">Imorgon klockan 18.00</a></li>
+          <li><a href="#">Ny vinnare!</a></li>
+          <li><a href="#">Mat</a></li>
+          <li><h3>Igår kväll..</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p></li>
+          <li><h3>Glöm inte 27/3!</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>
+      </ul>
+    </aside>
+
+    <section id="heading">
+      <h1>Välkommen in till Bobs Bowling!</h1>
+    </section>
+
+    <section class="nested" id="startsida-articles">
+      <article>
+        <h2>Ta med barnen eller kompisarna!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.<br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+      <article>
+        <h2>Frågor?</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+      </article>
+    </section>
+  </div>
+  
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

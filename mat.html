@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bobs Mat</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body id="food-page">
+
+  <div class="container">
+    
+     <header class="nested">
+      
+      <section class="nested" id="header-logo">
+        <a href="index.html"><img id="logo" src="img/logoball.png" alt="Bobs Bowling"></a>
+      </section>
+     
+      <nav>
+         <ul>
+          <li><a href="index.html">HEM</a></li>
+          <li><a href="bowling.html">BOWLING</a></li>
+          <li><a href="mat.html">MAT</a></li>
+          <li><a href="omoss.html">OM OSS</a></li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+      </nav>
+
+      <section class="search">
+        <input type="text" placeholder="Sök...">
+      </section>
+
+      <img id="menu-icon" src="img/menu.png" alt="Hamburger Menu" onclick="toggleMenu()">
+    </header>
+
+    <section id="mobile-nav"> <!--Dold på större upplösningar, dyker upp på mindre skärmar när användaren trycker på menyikonen-->
+      <ul>
+          <li><a href="index.html">HEM</a></li>
+          <li><a href="bowling.html">BOWLING</a></li>
+          <li><a href="mat.html">MAT</a></li>
+          <li><a href="omoss.html">OM OSS</a></li>
+          <li><a href="#">BLOGG</a></li>  <!--Ersätter sidebar på mindre upplösningar-->
+          <li><a href="kontakt.html">KONTAKT</a></li>
+          <li><section id="mobile-search">
+          <input type="text" placeholder="Sök...">
+      </section></li>
+      </ul>
+    </section>
+
+    <main>
+      <section class="nested" id="food-items">
+        <section class="box box1">
+          <h1>Mat</h1>
+          <img src="img/pizza.jpg" alt="Pizza" class="food-img">
+          <section class="nested">
+            <ul>
+              <li>PRODUKT</li><br>
+              <li>Pasta</li>
+              <li>Pizza</li>
+              <li>bla</li>
+              <li>bla</li>
+              <li>bla</li>
+            </ul>
+            <ul>
+              <li>PRIS</li><br>
+              <li>89:-</li>
+              <li>99:-</li>
+              <li>149:-</li>
+              <li>119:-</li>
+              <li>99:-</li>
+            </ul>
+          </section>
+        </section>
+        <section class="box box2">
+          <h1>Dryck</h1>
+          <img src="img/drink.jpg" alt="Drink" class="food-img"> 
+          <section class="nested">
+            <ul>
+              <li>PRODUKT</li><br>
+              <li>Läsk</li>
+              <li>Kaffe</li>
+              <li>Te</li>
+              <li>Smoothie</li>
+              <li>bla</li>
+            </ul>
+            <ul>
+              <li>PRIS</li><br>
+              <li>19:-</li>
+              <li>15:-</li>
+              <li>9:-</li>
+              <li>29:-</li>
+              <li>29:-</li>
+            </ul>
+          </section>
+        </section>
+        <section class="box box3">
+          <h1>Efterrätt</h1>
+          <img src="img/dessert.jpg" alt="Desserts" class="food-img"> 
+          <section class="nested">
+            <ul>
+              <li>PRODUKT</li><br>
+              <li>Kaka</li>
+              <li>Cookie</li>
+              <li>Kiki</li>
+              <li>Koko</li>
+              <li>bla</li>
+            </ul>
+            <ul>
+              <li>PRIS</li><br>
+              <li>39:-</li>
+              <li>65:-</li>
+              <li>29:-</li>
+              <li>40:-</li>
+              <li>68:-</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+    </main>
+  </div>
+
+
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
