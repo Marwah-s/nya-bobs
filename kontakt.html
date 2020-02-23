@@ -23,13 +23,13 @@
 
   <div class="container">
     
-     <header class="nested">
+     <header class="nested"> <!--role="banner" men header elementet sköter redan detta-->
       
       <section class="nested" id="header-logo">
         <a href="index.html"><img id="logo" src="img/logoball.png" alt="Bobs Bowling"></a>
       </section>
      
-      <nav>
+      <nav> <!--role="navigation"-->
          <ul>
           <li><a href="index.html">HEM</a></li>
           <li><a href="bowling.html">BOWLING</a></li>
@@ -40,7 +40,7 @@
       </nav>
 
       <section class="search">
-        <input type="text" placeholder="Sök...">
+        <input type="text" placeholder="Sök..." role="search">
       </section>
 
       <img id="menu-icon" src="img/menu.png" alt="Hamburger Menu" onclick="toggleMenu()">
@@ -68,7 +68,7 @@
           </li>
           <li>
             <section id="mobile-search">
-              <input type="text" placeholder="Sök...">
+              <input type="text" placeholder="Sök..." role="search">
             </section>
           </li>
       </ul>
@@ -98,7 +98,7 @@
         <section id="contact-message">
           <label for="message">Meddelande</label>
           <textarea id="message"></textarea>
-          <input type="submit" value="Skicka" id="send-button">
+          <input type="submit" value="Skicka" id="send-button" role="button">
         </section>
       </form>
     </main>

@@ -21,26 +21,26 @@
 
 <body id="startsida">
 
-  <div class="container">
+  <div class="container" role="grid">
     
-    <header class="nested">
+    <header class="nested" role="grid"> <!--role="banner" men header elementet sköter redan detta-->
       
      
-        <a href="index.html"><img id="logo" src="img/logoball.png" alt="Bobs Bowling"></a>
+        <a href="index.html" role="gridcell"><img id="logo" src="img/logoball.png" alt="Bobs Bowling"></a>
     
      
-      <nav>
+      <nav role="menubar" role="gridcell"> <!--role="navigation"-->
          <ul>
-          <li><a href="index.html">HEM</a></li>
-          <li><a href="bowling.html">BOWLING</a></li>
-          <li><a href="mat.html">MAT</a></li>
-          <li><a href="omoss.html">OM OSS</a></li>
-          <li><a href="kontakt.html">KONTAKT</a></li>
+          <li><a href="index.html" role="menuitem">HEM</a></li>
+          <li><a href="bowling.html" role="menuitem">BOWLING</a></li>
+          <li><a href="mat.html" role="menuitem">MAT</a></li>
+          <li><a href="omoss.html" role="menuitem">OM OSS</a></li>
+          <li><a href="kontakt.html" role="menuitem">KONTAKT</a></li>
         </ul>
       </nav>
 
-      <section class="search">
-        <input type="text" placeholder="Sök...">
+      <section class="search" role="gridcell">
+        <input type="text" placeholder="Sök..." role="search">
       </section>
 
       <img id="menu-icon" src="img/menu.png" alt="Hamburger Menu" onclick="toggleMenu()">
@@ -55,12 +55,12 @@
           <li><a href="#">BLOGG</a></li>  <!--Ersätter sidebar på mindre upplösningar-->
           <li><a href="kontakt.html">KONTAKT</a></li>
           <li><section id="mobile-search">
-          <input type="text" placeholder="Sök...">
+          <input type="text" placeholder="Sök..." role="search">
       </section></li>
       </ul>
     </section>
 
-    <aside tabindex="0">
+    <aside tabindex="0"> <!--role="complementary"-->
       <h2 tabindex="0">BLOGG</h2>
       <ul id="sidebar-content">
         <li><a href="#">Imorgon klockan 18.00</a></li>
