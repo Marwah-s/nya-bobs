@@ -39,8 +39,8 @@
         </ul>
       </nav>
 
-      <section class="search">
-        <input type="text" placeholder="Sök..." role="search">
+      <section class="search" role="search">
+        <input type="search" placeholder="Sök...">
       </section>
 
       <img id="menu-icon" src="img/menu.png" alt="Hamburger Menu" onclick="toggleMenu()">
@@ -60,15 +60,15 @@
           <li>
             <a href="omoss.html">OM OSS</a>
           </li>
-          <li> <!--Ersätter sidebar på mindre upplösningar-->
-            <a href="#">BLOGG</a>
+          <li> 
+            <a href="#">BLOGG</a> <!--Ersätter sidebar på mindre upplösningar-->
           </li>  
           <li>
             <a href="kontakt.html">KONTAKT</a>
           </li>
           <li>
-            <section id="mobile-search">
-              <input type="text" placeholder="Sök..." role="search">
+            <section id="mobile-search" role="search">
+              <input type="search" placeholder="Sök...">
             </section>
           </li>
       </ul>
@@ -98,7 +98,7 @@
         <section id="contact-message">
           <label for="message">Meddelande</label>
           <textarea id="message"></textarea>
-          <input type="submit" value="Skicka" id="send-button" role="button">
+          <input type="submit" value="Skicka" id="send-button">
         </section>
       </form>
     </main>
