@@ -338,7 +338,7 @@ header .search {
   margin-left: 18em;
 }
 
-header .search input[type="text"] {
+header .search input[type="search"] {
   width: 100%;
   padding: 10px;
   padding-right: 60px;
