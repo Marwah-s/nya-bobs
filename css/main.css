@@ -424,7 +424,7 @@ aside a:hover {
 }
 
 #bowling-page main img {
-  width: 15em;
+  width: 13em;
 }
 
 #bowling-link {
@@ -452,16 +452,17 @@ form {
   margin: auto;
   margin-top: 3em;
   padding: 1.5em;
-  background: url(https://cdn.pixabay.com/photo/2017/12/28/15/06/background-3045402__340.png) no-repeat;
+  background: url(https://th.bing.com/th/id/OIP.jStoRLa2F72XY3Gypku5ugHaEK?pid=Api&rs=1/*https://cdn.pixabay.com/photo/2017/12/28/15/06/background-3045402__340.png*/) no-repeat;
   background-size: cover;
   width: 70%;
   height: 100%;
+  display: block;
 }
 
 label {
   display: block;
+  margin-left: 3em;
   margin-top: 1em;
-  margin-left: 2em;
   color: #fff;
   font-weight: bold;
   text-shadow: 2px 2px #000;
@@ -470,9 +471,9 @@ label {
 #contact-page main input, #contact-page textarea {
   display: block;
   width: 80%;
-  margin-bottom: 1em;
+  margin: auto;
   background: rgba(0,0,0,0.3);
-  border: 3px solid #373F51;
+  border: 3px solid #FFF;
   padding: 0.9em;
   outline: none;
   color: #fff;
@@ -492,7 +493,7 @@ label {
 }
 
 #send-button {
-  width: 90%;
+  width: 100%;
   cursor: pointer;
   color: #fff;
   font-weight: bold;
@@ -522,7 +523,7 @@ label {
 }
 
 .food-img {
-  height: 25em;
+  height: auto;
   width: 90%;
 }
 
@@ -696,15 +697,19 @@ label {
     color: #fff;
   }
 
-  #mobile-search input[type="text"] {
-  width: 50%;
-  padding: 10px;
-  padding-right: 60px;
+  #mobile-search{
+  width: 80%;
   box-sizing: border-box;
   background: rgba(0,0,0,0.3);
   border: 2px solid #fff;
   color: #fff;
   outline: none;
+  }
+
+  #mobile-search input[type="search"] {
+    width: 100%;
+    background: rgba(0,0,0,0.1);
+    color: #fff;
   }
 
   header {
@@ -721,7 +726,7 @@ label {
   #menu-icon {
     display: block;
     grid-column: end;
-    width: 3.5em;
+    width: 2em;
     margin: -0.4em 2em;
   }
 
